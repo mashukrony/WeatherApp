@@ -1,0 +1,112 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('path/to/your/background-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav .nav-link {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+nav .nav-link.custom-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+nav .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+nav .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+nav .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-img-top.small-img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title, .card-text {
+    font-size: 1.2em;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+.btn-block {
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Specific section styles */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+}
