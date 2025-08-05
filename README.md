@@ -82,11 +82,10 @@ INSERT INTO categories (name) VALUES ('Hot'), ('Cold'), ('Normal'), ('Rainy');
 ---
 
 ## **📸 Screenshots**  
-| Homepage | Weather Post | Comments |  
-|----------|--------------|----------|  
-| ![Home](./assets/home.png) | ![Post](./assets/post.png) | ![Comments](./assets/comments.png) |  
+| Homepage | 
+|----------|  
+| ![Home](./assets/homepage.png) | 
 
-*(Add actual screenshots to an `/assets/` folder.)*  
 
 ---
 
